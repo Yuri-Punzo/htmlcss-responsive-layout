@@ -132,14 +132,31 @@ body {
 /* #region main */
 
 .demo_section>.container {
-    margin: 48px auto 96px auto;
+    margin: 38px auto 96px auto;
 }
 
 .demo_section .card {
     background-color: #b5ddff;
     border-radius: 20px;
-    height: 300px;
+    text-align: center;
+    margin: 12px;
 }
+
+.main_card {
+    text-align: left;
+}
+
+
+.demo_section img{
+    height: 30vh;
+    align-self: end;
+    margin: 65px auto 0 auto;
+}
+
+.inside_margin{
+    padding: 30px;
+}
+
 
 /* #endregion main */
 
