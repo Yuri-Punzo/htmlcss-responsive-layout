@@ -121,7 +121,7 @@ body {
 .mobile_menu{
     color: white;
     font-size: 24px;
-    margin-right: 10px;
+    padding: 10px;
     display: none;
 }
 
@@ -144,7 +144,7 @@ body {
 
 
 /* #region media */
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1199px) {
     .container {
         width: 95%;
     }
