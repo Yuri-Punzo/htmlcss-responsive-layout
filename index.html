@@ -1,25 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/48d660b4b7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Responsive Layout</title>
 </head>
+
 <body>
-    
+
     <header id="site_header">
-        <div class="container">
-            <div class="menu_left">
-                <div class="col_6"></div>
+        <nav class="nav_bar debug">
+            <div class="container">
+                <div class="flex_row">
+                    <div class="menu_left col_2">
+                        <img id="logo" src="./assets/img/logo.png" alt="">
+                    </div>
+                    <div class="menu_right col_10">
+                        <i class="fa-solid fa-bars mobile_menu"></i>
+                        <a class="header_links" href="">Planning</a>
+                        <a class="header_links" href="">Testimonials</a>
+                        <a class="header_links" href="">Features</a>
+                        <a class="header_links" href="">About Us</a>
+                        <a class="header_links get_started" href="">Get Started</a>
+                    </div>
+                </div>
             </div>
-            <!-- /.menu_left -->
-            <div class="menu_right">
-                <div class="col_6"></div>
-            </div>
-            <!-- /.menu_right -->
-        </div>
+        </nav>
         <!-- /.container -->
     </header>
     <!-- /#site_header -->
@@ -34,4 +47,5 @@
 
 
 </body>
+
 </html>
