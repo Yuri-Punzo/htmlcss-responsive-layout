@@ -101,7 +101,7 @@ body {
 }
 
 #logo {
-    margin: 18px;
+    margin: 18px 0;
 }
 
 .header_links {
@@ -118,7 +118,7 @@ body {
     font-weight: bold;
 }
 
-.mobile_menu{
+.mobile_menu {
     color: white;
     font-size: 24px;
     padding: 10px;
@@ -131,7 +131,15 @@ body {
 
 /* #region main */
 
+.demo_section>.container {
+    margin: 48px auto 96px auto;
+}
 
+.demo_section .card {
+    background-color: #b5ddff;
+    border-radius: 20px;
+    height: 300px;
+}
 
 /* #endregion main */
 
@@ -154,10 +162,12 @@ body {
     .container {
         width: 95%;
     }
-    .header_links{
+
+    .header_links {
         display: none;
     }
-    .mobile_menu{
+
+    .mobile_menu {
         display: block;
     }
 }
@@ -166,10 +176,12 @@ body {
     .container {
         width: 95%;
     }
-    .header_links{
+
+    .header_links {
         display: none;
     }
-    .mobile_menu{
+
+    .mobile_menu {
         display: block;
     }
 }
