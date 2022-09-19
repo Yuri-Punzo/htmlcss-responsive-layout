@@ -140,6 +140,7 @@ body {
     border-radius: 20px;
     text-align: center;
     margin: 12px;
+    /* height: 95%;    appunto per domani: verifacare altezza carte */
 }
 
 .main_card {
