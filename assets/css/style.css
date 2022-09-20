@@ -202,6 +202,10 @@ body {
     .mobile_menu {
         display: block;
     }
+
+    .col_sm_12{
+        width: calc(100% / 12 * 12);
+    }
 }
 
 /* #endregion media */
