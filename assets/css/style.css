@@ -508,6 +508,8 @@ body {
         flex-direction: column;
     }
 
+    
+
 
 
 
@@ -534,8 +536,11 @@ body {
         width: calc(100% / 12 * 12);
     }
 
-
-
+    .flex_sm_column {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
 
     .footer_container {
         width: 95%;
