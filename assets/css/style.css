@@ -29,6 +29,12 @@ body {
     flex-direction: row;
 }
 
+.flex_column{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
 .clear_fix{
     content: "";
     display: table;
@@ -217,15 +223,16 @@ body {
     border-radius: 50px;
     text-align: left;
     margin: 16px 8px;
-    align-self: center;
+    
 }
 
 .testimonials img{
     float: left;
     width: 17%;
     border-radius: 50%;
-    /* aspect-ratio: 1 / 1; */
+    aspect-ratio: 1 / 1;
     margin: 30px;
+    object-fit: cover;
 }
 
                         /* /testimonials*/
