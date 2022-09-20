@@ -509,10 +509,6 @@ body {
 
 
 
-
-
-
-
     .footer_container {
         width: 60%;
     }
@@ -542,11 +538,20 @@ body {
     }
 
     .testimonials img {
-        margin: auto 60px auto 15px;
-        width: 100%;
+        margin: 30px auto 20px auto;
+        width: 60%;
         border-radius: 50%;
         aspect-ratio: 1 / 1;
         object-fit: cover;
+    }
+
+    .testimonials p:not(.intro) {
+        margin: 20px 15px 20px 15px;
+        font-size: 20px;
+    }
+
+    .testimonials h3{
+        margin: auto;
     }
 
     .footer_container {
