@@ -207,7 +207,8 @@ body {
 }
 
 .demo p:not(.main_p) {
-    margin: 0 30px 50px 30px;
+    margin: 0 30px 15px 30px;
+    padding-bottom: 40px;
 }
 
 /* /demo*/
@@ -376,18 +377,65 @@ body {
 
 .about_us .quote{
     color: #9792e4;
-    font-size: 32px;
+    font-size: 28px;
     font-weight: bold;
-    margin-right: 80px;
+    margin-right: 150px;
+}
 
+.btn_linkedin{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #9792e4;
+    color: white;
+    padding: 5px 30px;
+    border-radius: 20px;
+    margin: 20px 0;
 }
 
 /* /about_us*/
 
 /* get_started*/
+
 .get_started {
     background-color: #9792e4;
     padding: 38px 0 38px 0;
+    text-align: center;
+    color: white;
+}
+
+.get_started span{
+    color: #d5d4f4;
+    font-size: 20px;
+}
+
+.get_started h1{
+    color: #fdc15f;
+    font-size: 100px;
+}
+
+.get_started .btn_start{
+    display: inline-block;
+    text-decoration: none;
+    background-color: white;
+    color: #9792e4;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 20px 90px;
+    margin: 30px 0;
+    border-radius: 40px;
+}
+
+.get_started p:not(.simple){
+    font-size: 18px;
+}
+
+.simple{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.get_started .privacy{
+    color: white;
 }
 
 /* /get_started*/
