@@ -29,6 +29,11 @@ body {
     flex-direction: row;
 }
 
+.clear_fix{
+    content: "";
+    display: table;
+    clear: both;
+}
 
 
 
@@ -184,12 +189,43 @@ body {
     color: white;
 }
 
+.planning .card{
+    background-color: white;
+    color: black;
+    border-radius: 20px;
+    text-align: center;
+    margin: 12px;
+}
+
                         /* /planning*/
 
                         /* testimonials*/
 
 .testimonials {
     padding: 38px 0 38px 0;
+    text-align: center;
+}
+
+.testimonials h1{
+    color: #9792e4;
+}
+
+.testimonials .card{
+    background-color: #9792e4;
+    color: white;
+    width: 100%;
+    border-radius: 50px;
+    text-align: left;
+    margin: 16px 8px;
+    align-self: center;
+}
+
+.testimonials img{
+    float: left;
+    width: 17%;
+    border-radius: 50%;
+    /* aspect-ratio: 1 / 1; */
+    margin: 30px;
 }
 
                         /* /testimonials*/
