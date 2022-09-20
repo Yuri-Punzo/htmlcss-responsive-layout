@@ -26,6 +26,7 @@ body {
 .flex_row {
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
 }
 
 
@@ -131,6 +132,8 @@ body {
 
 /* #region main */
 
+                        /* demo*/
+
 .demo {
     padding: 38px 0 96px 0;
 }
@@ -147,7 +150,7 @@ body {
     text-align: left;
 }
 
-.btn_apple{
+.btn_apple {
     display: inline-block;
     background-color: #0084fd;
     border-radius: 18px;
@@ -159,45 +162,88 @@ body {
 
 }
 
-.demo img{
-    height: 30vh;
+.demo img {
+    width: 70%;
+    object-fit: cover;
     align-self: end;
     margin: 65px auto 0 auto;
 }
 
-.inside_margin{
+.inside_margin {
     padding: 30px;
 }
 
-.planning{
+                        /* /demo*/
+
+                        /* planning*/
+
+
+.planning {
     background-color: #9792e4;
     padding: 38px 0 38px 0;
     color: white;
 }
 
-.testimonials{
+                        /* /planning*/
+
+                        /* testimonials*/
+
+.testimonials {
     padding: 38px 0 38px 0;
 }
 
-.benefits{
+                        /* /testimonials*/
+
+                        /* benefits*/
+
+.benefits {
     background-color: #9792e4;
     padding: 38px 0 38px 0;
 }
+
+                        /* /benefits*/
+
+                        /* about_us*/
+
+.about_us {
+    padding: 38px 0 38px 0;
+}
+
+                        /* /about_us*/
+
+                        /* get_started*/                        
+.get_started {
+    background-color: #9792e4;
+    padding: 38px 0 38px 0;
+}
+
+                        /* /get_started*/
+
+
 
 /* #endregion main */
 
 
 /* #region footer */
 
-#site_footer{
+#site_footer {
     background-color: #333333;
     color: white;
 }
 
-.footer_container{
-    width: 20%;
+.footer_container {
+    width: 25%;
     margin: auto;
     padding: 38px 0 38px 0;
+    text-align: center;
+}
+
+.footer_links {
+    color: #9792e4;
+}
+
+#site_footer p:first-child {
+    margin-bottom: 50px;
 }
 
 /* #endregion footer */
@@ -207,6 +253,10 @@ body {
 @media screen and (max-width: 1199px) {
     .container {
         width: 95%;
+    }
+
+    .footer_container {
+        width: 60%;
     }
 }
 
@@ -223,12 +273,26 @@ body {
         display: block;
     }
 
-    .col_md_6{
+    .col_md_6 {
         width: calc(100% / 12 * 6);
     }
 
-    .col_md_12{
+    .col_md_12 {
         width: calc(100% / 12 * 12);
+    }
+
+    .flex_column{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+
+
+
+
+    .footer_container {
+        width: 60%;
     }
 }
 
@@ -245,8 +309,15 @@ body {
         display: block;
     }
 
-    .col_sm_12{
+    .col_sm_12 {
         width: calc(100% / 12 * 12);
+    }
+
+
+
+
+    .footer_container {
+        width: 95%;
     }
 }
 
