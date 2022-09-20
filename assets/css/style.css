@@ -286,15 +286,14 @@ body {
 
 .testimonials img {
     margin: 30px 60px 30px 15px;
-    float: left;
-    width: 17%;
+    width: 80%;
     border-radius: 50%;
     aspect-ratio: 1 / 1;
     object-fit: cover;
 }
 
 .testimonials p:not(.intro) {
-    margin: 80px 10px 20px 0;
+    margin: 50px 10px 20px 0;
     font-size: 20px;
 }
 
@@ -508,7 +507,7 @@ body {
         flex-direction: column;
     }
 
-    
+
 
 
 
@@ -540,6 +539,14 @@ body {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
+    }
+
+    .testimonials img {
+        margin: auto 60px auto 15px;
+        width: 100%;
+        border-radius: 50%;
+        aspect-ratio: 1 / 1;
+        object-fit: cover;
     }
 
     .footer_container {
