@@ -15,6 +15,7 @@ img {
 
 body {
     font-family: 'PT Sans', sans-serif;
+    line-height: 1.6;
 }
 
 /* #region utility */
@@ -41,7 +42,9 @@ body {
     clear: both;
 }
 
-
+.relative{
+    position: relative;
+}
 
 .col_1 {
     width: calc(100% / 12 * 1);
@@ -154,8 +157,6 @@ body {
     border-radius: 20px;
     text-align: center;
     margin: 12px;
-    height: 95%;
-    verificare altezza carte
 }
 
 .main_card {
@@ -203,7 +204,6 @@ body {
     color: #5a6e7f;
     font-weight: bold;
     font-size: 18px;
-    line-height: 1.6;
 }
 
 .demo p:not(.main_p) {
@@ -226,7 +226,22 @@ body {
     color: black;
     border-radius: 20px;
     text-align: center;
-    margin: 12px;
+    margin: 252px 20px 20px 20px;
+    padding: 10px;
+    align-self: flex-end;
+}
+
+.plan_develop h2{
+    margin-bottom: 30px;
+}
+
+.plan_img{
+    margin: 100px 60px;
+    width: 70%;
+}
+
+.dev_img{
+    width: 50%;
 }
 
 .fa-arrow-down-long {
@@ -332,6 +347,39 @@ body {
 
 .about_us {
     padding: 38px 0 38px 0;
+}
+
+.about_us h1{
+    color: #9792e4;
+    font-size: 72px;
+    margin-left: 80px;    
+}
+
+.about_us p:not(.quote){
+    margin: 40px 80px;
+    font-size: 22px;
+}
+
+.about_us img{
+    width: 65%;
+    border-radius: 50%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.about_us .fa-quote-left{
+    color: #9792e4;
+    font-size: 100px;
+    position: absolute;
+    left: 70%;
+}
+
+.about_us .quote{
+    color: #9792e4;
+    font-size: 32px;
+    font-weight: bold;
+    margin-right: 80px;
+
 }
 
 /* /about_us*/
